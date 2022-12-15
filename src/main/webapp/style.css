@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+
+nav{
+    font-family: "Roboto";
+    background-color:#e2dace;
+    font-size:18px;
+    font-weight: 800;
+    position: fixed;
+    width: 100vw;
+    text-decoration: none;
+    z-index: 1;
+    
+}
+#MiExperiencia{
+    font-weight: 400;
+    color:#e2dace;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    display:block;
+    font-size: 20px;
+    background-color:#242525;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
+   
+}
+#MiExperiencia2{
+    font-weight: 400;
+    color:#e2dace;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    display:block;
+    font-size: 20px;
+    background-color:#242525;
+    padding-bottom: 8rem;
+    padding-right: 4rem;
+   
+}
+#skills{
+    background-color:#242525;
+    display:block;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+   
+    
+}
+inicio{
+    background-color: #3A465C;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    display:block;
+    font-size: 20px;
+    color:#fff;
+    position: relative;
+    display:block;
+}
+#presentavc{
+    backgroung-color: #242525;
+    font-family: "Roboto";
+    font-weight: 800;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size:18px;
+}
+span{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 12px;
+    color:#fff;
+    display:block;
+    line-height: 1.1;
+    padding: 0 13px;
+    position: relative;
+}
+footer{
+    background-color: #e2dace;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+span::before{
+    background: linear-gradient(90deg,var(--start-color),var(--end-color));
+    content:var(--content);
+    position: absolute;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated 9s infinite;
+    animation-delay: var(--delay);
+}
+
+@keyframes animated{
+    0%, 16.667%,33.33%, 100%{
+        opacity: 1;
+    }
+    33.333%, 83.333%{
+        opacity: 0;
+    }}
